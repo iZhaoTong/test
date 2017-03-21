@@ -104,7 +104,7 @@ def main():
     #plt.xlabel('Nt(Ns)')
     #plt.ylabel('Error')
     #plt.show()
-    print(Implicit_EuDigi('C', 0.05, 0.3, 0.5, 40, 120, 10000, 41, 40).price() )
+    print(Implicit_EuDigi('C', 0.05, 0.3, 0.5, 40, 120, 10000, 161, 40).price() )
 
 
 if __name__ == "__main__":main()
